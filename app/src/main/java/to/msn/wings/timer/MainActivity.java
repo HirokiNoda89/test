@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
     CountDown countdown1 = new CountDown(180000, 100);
     CountDown countdown2 = new CountDown(240000, 100);
     CountDown countdown3 = new CountDown(300000, 100);
+    //コメント
+    /*ABC
+    */
+
 
     public void onClick1(View v) {
         countdown1.start();
